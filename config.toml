@@ -6,7 +6,7 @@ publishDir = "docs"
 DefaultContentLanguage = "en"
 
 [author]
-  name = "Rodrigo C. Moraes"
+  name = "Moraes"
   homepage = "https://rodrigocmoraes.github.io/"
 
 [languages]
