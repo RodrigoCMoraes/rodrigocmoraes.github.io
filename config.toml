@@ -21,7 +21,7 @@ DefaultContentLanguage = "en"
 
 [params]
 mainSections = ["posts"]
-disqus = "disqus_SQFPDLJlXL"
+disqus = "rodrigocmoraes"
 extraHead = ''
 
 [[params.socials]]
