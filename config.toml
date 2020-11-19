@@ -1,5 +1,41 @@
 baseURL = "https://rodrigocmoraes.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Rodrigo's Blog"
+theme = "yinyang"
 publishDir = "docs"
+DefaultContentLanguage = "en"
+
+[author]
+  name = "Rodrigo C. Moraes"
+  homepage = "https://rodrigocmoraes.github.io/"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.pt]
+    contentDir = "content/pt"
+    languageName = "Portuguese"
+    weight = 2
+
+[params]
+mainSections = ["posts"]
+disqus = "disqus_SQFPDLJlXL"
+extraHead = ''
+
+[[params.socials]]
+name = "About Me"
+link = "https://www.linkedin.com/in/rodrigocmoraes-05843256/?locale=en_US" # TODO: add link to about me
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/RodrigoCMoraes"
+
+[[params.socials]]
+name = "LinkedIn"
+link = "https://www.linkedin.com/in/rodrigocmoraes-05843256/?locale=en_US"
+
+[[params.socials]]
+name = "RSS Feed"
+link = "/index.xml"
