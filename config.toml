@@ -21,6 +21,7 @@ DefaultContentLanguage = "en"
 
 [params]
 mainSections = ["posts"]
+headTitle = "Rodrigo C. Moraes"
 disqus = "rodrigocmoraes"
 extraHead = ''
 
